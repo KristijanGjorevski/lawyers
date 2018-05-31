@@ -164,9 +164,9 @@ header {
     display: none;
     height: 100%;
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-column-gap: 8vw;
-    grid-row-gap: 8vh;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    grid-column-gap:  10px;
+    grid-row-gap: 10px;
     text-align: center;
     align-content: center;
     background-color: lightyellow;
@@ -179,9 +179,9 @@ header {
 
 #mobile-menu>li {
     position: relative;
-    top: 90px;
-    height: 150px;
-    width: 150px;
+    top: 10px;
+    height: 100px;
+    width: 100px;
     text-align: center;
     background-color: transparent;
     border-radius: 50%;

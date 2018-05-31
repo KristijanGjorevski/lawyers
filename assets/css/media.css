@@ -1,6 +1,18 @@
+@media only screen and (max-width: 900px) {
+    .blog_container{
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 660px) {
     .call_to_container {
-        width: 2vw;
+        width: 15rem;
+    }
+    .employers_container{
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .practice_areas_places {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
 }
 
@@ -17,6 +29,34 @@
     .call-action>span>a {
         white-space: nowrap;
     }
+    .slider_text>h5 {
+        font-size: 1rem;
+    }
+    .slider_text>span {
+        font-size: 0.75rem;
+    }
+    .slider_dedication b{
+        font-size: 3vw;
+    }
+    .slider_dedication span {
+        font-size: 2.5vw;
+    }
+    .employer1_img, .employer2_img {
+        display: none;
+    }
+    .blog_container{
+        grid-template-columns: repeat(auto-fit,minmax(157px,1fr));
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .call_to_button_2-2 {
+        font-size: 3vw;    
+    }
+    .prev,.next{
+        width: 35px;
+        font-size:25px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -25,5 +65,8 @@
     }
     .caption {
         display: none;
+    }
+    .headings h5 {
+        font-size: 2rem;
     }
 }

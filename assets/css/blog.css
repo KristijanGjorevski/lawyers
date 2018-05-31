@@ -1,6 +1,6 @@
 .blog_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,minmax(180px,1fr));
     text-align: center;
     width: 60%;
     margin: 5vh auto;
